@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Car Rent Services</title>
+</head>
+<body>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            font-family: 'Inconsolata', monospace;
+        }
+        body{
+            background:black;
+            padding:2rem;
+
+         }
+        .main h1{
+            display: flex;
+            justify-content: center;
+            padding:2rem;
+            color:#fff200;
+         }
+         .main p{
+             display: flex;
+             justify-content: center;
+             color:#ffff;
+          }
+          
+         .contents{
+              background:#fff200;
+              width:295px;
+              height:430px;
+             
+         }
+         .contents h1{
+             display: flex;
+             justify-content: flex-start;
+             padding:1rem;
+             color:#778ca3;
+         }
+         .contents p{
+             padding:1rem;
+             line-height:1.3rem;
+             color:#778ca3;
+         }
+         .contents hr{
+             width:90%;
+             margin:auto;
+             
+          }
+          .contents i{
+              padding:0.2rem;
+              margin-left:0.6rem;
+          }
+          .contents span{
+              color:white;
+          }
+          .pic1 h1{
+              line-height: 2.9rem;
+           }
+           .pic1 p{
+               padding:0.1rem;
+               line-height: 1.4rem;
+           }
+           .pic2 h1{
+               line-height:2.9rem;
+           }
+           .pic2 p{
+               padding:0.1rem;
+               line-height:1.4rem;
+           }
+           
+        .head{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap:15px;
+            padding:5rem;
+            color:#ffff;
+            
+           }
+          
+          .images p{
+              color:red;
+          }
+          @media(max-width:767px){
+             .head{
+                 padding:0.1rem;
+                 display: grid;
+                 grid-template-columns: 1fr;
+                 grid-gap:35px;
+                 margin-right:25px;
+              }
+             .main p{
+                 padding:1rem;
+                 font-size:1rem;
+                 text-align:start;
+                  
+              }
+             .contents {
+                 width:340px;
+                 height:360px;
+ 
+             }
+             .contents p{
+                 font-size:1.2rem;
+             }
+            .contents hr{
+                color:#7d5fff;
+            }
+          }
+    </style>
+     
+          <div class = "main">
+             <h1>Car Repair and Services</h1>
+             <p>Excepteur sint occaecat cupidatat non proident,sunt in culpa qui offica deseunt mollitanim id est laborum</p>
+
+         </div>
+             <div class = "head">
+              <div class = "contents">
+                 <h1>Running Car</h1>
+                 <p>We offer an extensive range of car repar services for cars of all makes and models all under one roof.We specialise in car services,car body repair,engine repair,denting and painting,car grooming,road side assistance and much more <br><br> Images from <span>Freepik</span></p>
+                 <hr> <br>
+                 <i style="font-size:25px;color:red" class="fa">&#xf16d;</i>
+
+                <i class="fa fa-twitter" style="font-size:25px;color:skyblue"></i>
+                <i class="fa fa-facebook-f" style="font-size:25px;color:black"></i>
+              </div>
+ 
+ 
+                  <div class = "pic1">
+                 <img src = "car1.jpg" alt="car1">
+                 <h1>Running Car</h1>
+                 <p>Duis aute irure in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla partitur.Excepteur sint occaecat cupidatat non proident.</p>
+                  </div>
+                  <div class = "pic2">
+                     <img src = "car2.jpg" alt="car2">
+                     <h1>Body Repair</h1>
+                     <p>Duis aute irure in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla partitur.Excepteur sint occaecat cupidatat non proident.</p>
+
+                </div>
+              </div>
+ </body>
+</html>
