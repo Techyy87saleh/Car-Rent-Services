@@ -10,6 +10,9 @@
 </head>
 <body>
     <style>
+         :root{
+            --clr:#ffff;
+        }
         *{
             padding:0;
             margin:0;
@@ -21,12 +24,12 @@
             padding:2rem;
 
          }
-        .main h1{
+        .main h1{            
+            color:#fff200;
             display: flex;
             justify-content: center;
             padding:2rem;
-            color:#fff200;
-         }
+          }
          .main p{
              display: flex;
              justify-content: center;
@@ -34,8 +37,9 @@
           }
           
          .contents{
-              background:#fff200;
-              width:295px;
+            background:#fff200;
+
+               width:295px;
               height:430px;
              
          }
@@ -60,7 +64,7 @@
               margin-left:0.6rem;
           }
           .contents span{
-              color:white;
+              color:var(--clr);
           }
           .pic1 h1{
               line-height: 2.9rem;
@@ -68,6 +72,7 @@
            .pic1 p{
                padding:0.1rem;
                line-height: 1.4rem;
+                
            }
            .pic2 h1{
                line-height:2.9rem;
@@ -82,13 +87,13 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap:15px;
             padding:5rem;
-            color:#ffff;
-            
+            color:var(--clr);
+
+ 
+             
            }
           
-          .images p{
-              color:red;
-          }
+          
           @media(max-width:767px){
              .head{
                  padding:0.1rem;
